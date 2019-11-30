@@ -1,0 +1,5 @@
+axiome = "a-a-a-a"
+regles = "a=a+a*a+a+aa*aa+a+a*a+a"
+angle  = 90
+niveau = 3
+taille = 2

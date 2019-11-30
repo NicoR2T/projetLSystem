@@ -1,0 +1,29 @@
+#!/usr/bin/env python3
+from turtle import *
+color('black')
+tracer(1000.0)
+title('Dessin en cours...')
+X = []
+Y = []
+angle_list = []
+
+def sauvegarder():
+    x = xcor()
+    y = ycor()
+    X.append(x)
+    Y.append(y)
+    angle_list.append(heading())
+
+def déplacer():
+    if(len(X)==0):
+     print("La règle ou l'axiome est mal renseignée")
+    else:
+     x = X[-1]
+     y = Y[-1]
+     angle = angle_list[-1]
+     del X[-1]
+     del Y[-1]
+     del angle_list[-1]
+     goto(x,y)
+     setheading(angle)
+

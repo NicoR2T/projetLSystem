@@ -1,0 +1,10 @@
+axiome = "ab"
+regles = 
+    "a=b+c"
+    "b=a-b"
+    "c=b-d"
+    "d=a+b-e"
+    "e=a+b"
+angle  = 60
+taille = 5
+niveau = 4
